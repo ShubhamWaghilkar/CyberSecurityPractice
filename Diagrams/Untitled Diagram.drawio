@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.1.1">
+  <diagram name="Page-1" id="SE-IH5cNTzPkMjxV2u84">
+    <mxGraphModel dx="2058" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="waBBT-QMnt_o2xlPJ2dJ-4" target="waBBT-QMnt_o2xlPJ2dJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-14" value="Pfsense Firewall&lt;div&gt;192.168.128.5 ( LAN )&lt;/div&gt;&lt;div&gt;192.168.0.5 ( WAN ) - Default Gateway&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="410" width="115.9" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.842;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="waBBT-QMnt_o2xlPJ2dJ-23" target="waBBT-QMnt_o2xlPJ2dJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.035;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="waBBT-QMnt_o2xlPJ2dJ-5" target="waBBT-QMnt_o2xlPJ2dJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="70" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-50" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;direction=west;" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-54">
+          <mxGeometry width="380.00000000000006" height="239.39521209575813" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-55" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="waBBT-QMnt_o2xlPJ2dJ-54" source="waBBT-QMnt_o2xlPJ2dJ-2" target="waBBT-QMnt_o2xlPJ2dJ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-2" value="SIEM Server&amp;nbsp;&lt;div&gt;192.168.0.179&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-54">
+          <mxGeometry x="177.3297867375986" y="78.70370370370371" width="49.65234028652761" height="88.6648933687993" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-15" value="Ansible Server&amp;nbsp;&lt;div&gt;192.168.0.116&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-54">
+          <mxGeometry x="88.6648933687993" y="60.18518518518518" width="52.13495730085399" height="93.09813803723927" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="waBBT-QMnt_o2xlPJ2dJ-14" target="waBBT-QMnt_o2xlPJ2dJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="waBBT-QMnt_o2xlPJ2dJ-14" target="waBBT-QMnt_o2xlPJ2dJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-310" y="50" width="120" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-56">
+          <mxGeometry width="120" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-4" value="Mac Client&amp;nbsp;&lt;div&gt;Host Machine&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-56">
+          <mxGeometry x="30" y="242.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-5" value="Windows Client&lt;div&gt;192.168.128.3&amp;nbsp;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-56">
+          <mxGeometry x="30" y="92.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="waBBT-QMnt_o2xlPJ2dJ-23" value="Kali Client&amp;nbsp;&lt;div&gt;192.168.128.2&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="waBBT-QMnt_o2xlPJ2dJ-56">
+          <mxGeometry x="30" y="392.5" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
